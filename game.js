@@ -15,7 +15,7 @@ var level = 0;
 //    });
 // }
 
-if($(window).innerWidth() < 768) {
+if($(window).innerWidth() <= 768) {
    $("#level-title").text("Click start to begin!")
 }
 
