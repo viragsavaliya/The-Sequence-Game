@@ -15,14 +15,31 @@ var level = 0;
 //    });
 // }
 
-$(document).keypress(function() {
-  if (!started) {
-    $("#level-title").text("Level " + level);
-    nextSequence();
-    started = true;
-  }
-});
+if($(window).innerWidth() < 768) {
+   $("#level-title").text("Click start to begin!")
+}
 
+if ($(window).innerWidth() > 768) {
+   $(document).keypress(function() {
+     if (!started) {
+       $("#level-title").text("Level " + level);
+       nextSequence();
+       started = true;
+       console.log(started);
+     }
+   });
+}
+
+if ($(window).innerWidth() < 768) {
+   $(".mobile-start-button").on("click", function() {
+      if (!started) {
+       $("#level-title").text("Level " + level);
+       nextSequence();
+       started = true;
+       alert("started");
+     }
+   });
+}
 
 $(".btn").on("click", function() {
    var userChosenColour = $(this).attr("id");
@@ -72,7 +89,6 @@ function checkAnswer(currentLevel) {
          $("body").removeClass("game-over");
       },1000);
       $("h1").text("Game Over, Press spcae key to restart");
-
       startOver();
    }
 }
