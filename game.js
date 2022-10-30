@@ -25,7 +25,6 @@ if ($(window).innerWidth() > 768) {
        $("#level-title").text("Level " + level);
        nextSequence();
        started = true;
-       console.log(started);
      }
    });
 }
@@ -36,7 +35,6 @@ if ($(window).innerWidth() < 768) {
        $("#level-title").text("Level " + level);
        nextSequence();
        started = true;
-       alert("started");
      }
    });
 }
