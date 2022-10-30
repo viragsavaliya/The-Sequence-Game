@@ -19,17 +19,17 @@ if($(window).innerWidth() <= 768) {
    $("#level-title").text("Click start to begin!")
 }
 
-if ($(window).innerWidth() > 768) {
-   $(document).keypress(function() {
-     if (!started) {
-       $("#level-title").text("Level " + level);
-       nextSequence();
-       started = true;
-     }
-   });
-}
+// if ($(window).innerWidth() > 768) {
+//    $(document).keypress(function() {
+//      if (!started) {
+//        $("#level-title").text("Level " + level);
+//        nextSequence();
+//        started = true;
+//      }
+//    });
+// }
 
-if ($(window).innerWidth() < 768) {
+// if ($(window).innerWidth() < 768) {
    $(".mobile-start-button").on("click", function() {
       if (!started) {
        $("#level-title").text("Level " + level);
@@ -37,7 +37,7 @@ if ($(window).innerWidth() < 768) {
        started = true;
      }
    });
-}
+// }
 
 $(".btn").on("click", function() {
    var userChosenColour = $(this).attr("id");
@@ -83,10 +83,7 @@ function checkAnswer(currentLevel) {
       var wrongAudio = new Audio("sounds/wrong.mp3");
       wrongAudio.play();
       $("body").addClass("game-over");
-      setTimeout(function(){
-         $("body").removeClass("game-over");
-      },1000);
-      $("h1").text("Game Over, Press spcae key to restart");
+      $("h1").text("Game Over, Click start to restart");
       startOver();
    }
 }
