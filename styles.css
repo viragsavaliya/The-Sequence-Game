@@ -12,13 +12,19 @@ body {
 
 .container {
   display: block;
-  width: 50%;
   margin: auto;
 
 }
 
 .button-div {
    padding: 1.5rem 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+   .button-div {
+      margin: 0;
+      padding: 0;
+   }
 }
 
 .btn {
@@ -28,6 +34,12 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+@media screen and (max-width: 768px) {
+   .btn {
+      margin: auto;
+   }
 }
 
 .btn:active {
@@ -71,7 +83,34 @@ body {
    box-shadow: yellow 0px 0px 30px;
 }
 
-.pressed {
+.mobile-start-button {
+   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-start-button {
+   display: block;
+   width: 7rem;
+   height: 3rem;
+   margin: 2rem auto 0 auto;
+   font-size: 1rem;
+   font-family: 'Press Start 2P', cursive;
+   border: 0;
+   border-radius: 15px;
+   background-color: #f2bc94;
+   cursor: pointer;
+  }
+  .mobile-start-button:hover {
+     box-shadow: #f2bc9499 0px 0px 15px;
+  }
+
+  .mobile-start-button:active {
+     transform: scale(0.95);
+  }
+}
+
+
+/* .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
-}
+} */
