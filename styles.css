@@ -8,7 +8,6 @@ body {
    font-size: 2rem;
    margin: 2% 5% 2% 5%;
    color: #FEF2BF;
-   background: orange;
 }
 
 .container {
@@ -19,6 +18,7 @@ body {
 
 .button-div {
    padding: 1.5rem 0 0 0;
+   background: orange;
 }
 
 @media screen and (max-width: 428px) {
