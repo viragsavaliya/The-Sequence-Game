@@ -8,9 +8,22 @@
    <link rel="stylesheet" href="styles.css">
    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+   <div class="background" onclick="toggleModal()"></div>
+   <div class="modal">
+      <div class="modal-content">
+         <h2> Instructions </h2>
+         <p>
+            Click the buttons in the sequence they are flashed
+         </p>
+      </div>
+   </div>
    <h1 id="level-title"> Hit start to Begin! </h1>
    <div class="container">
       <div class="button-div">
@@ -26,7 +39,12 @@
    </div>
    <div class="mobile-start-button-div">
       <button class="mobile-start-button"> Start </button>
+      <button onclick="toggleModal()" class = "modal-button"> Instructions </button>
    </div>
+
+   <main class="page-content">
+
+   </main>
 
    <script src="game.js"></script>
 
