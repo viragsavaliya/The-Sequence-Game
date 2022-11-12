@@ -163,7 +163,7 @@ body {
   place-items: center;
   opacity: 0;
   visibility: hidden;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 body.open .background {
