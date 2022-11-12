@@ -102,6 +102,13 @@ body {
    cursor: pointer;
 }
 
+@media screen and (max-width: 428px) {
+   .mobile-start-button-div {
+      display: block;
+      margin: 0;
+   }
+}
+
 .mobile-start-button:hover {
    box-shadow: #FEF2BF 0px 0px 15px;
 }
@@ -151,6 +158,12 @@ body {
   width: 10rem;
   height: 2rem;
   padding: auto;
+}
+
+@media screen and (max-width: 428px) {
+   .modal-button {
+      display: none;
+   }
 }
 
 .background {
