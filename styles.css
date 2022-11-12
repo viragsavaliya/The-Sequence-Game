@@ -163,7 +163,7 @@ body {
 
 @media screen and (max-width: 428px) {
    .modal-button {
-      visibility: none;
+      display: none;
    }
 }
 
