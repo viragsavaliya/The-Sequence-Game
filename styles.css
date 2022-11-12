@@ -106,7 +106,6 @@ body {
    .mobile-start-button-div {
       display: block;
       margin: 0;
-      background: orange;
    }
 }
 
@@ -162,9 +161,9 @@ body {
 }
 
 @media screen and (max-width: 428px) {
-   .modal-button {
-      display: none !important;
-      visibility:hidden;
+   .page-content {
+      display: none;
+      background: orange;
    }
 }
 
