@@ -88,6 +88,7 @@ body {
    display: flex;
    flex-direction: row;
    margin-left: 42rem;
+   background: red;
 }
 
 .mobile-start-button {
@@ -100,6 +101,7 @@ body {
    border-radius: 10px;
    background-color: #FEF2BF;
    cursor: pointer;
+   margin-bottom: 0;
 }
 
 @media screen and (max-width: 428px) {
@@ -118,7 +120,6 @@ body {
 
 @media screen and (max-width: 428px) {
    .mobile-start-button {
-      display: block;
       width: 15rem;
       height: 5rem;
       margin: 2rem auto 0 auto;
@@ -128,14 +129,6 @@ body {
       border-radius: 15px;
       background-color: #f2bc94;
       cursor: pointer;
-   }
-
-   .mobile-start-button:hover {
-      box-shadow: # #FEF2BF 0px 0px 15px;
-   }
-
-   .mobile-start-button:active {
-      transform: scale(0.95);
    }
 }
 
@@ -153,10 +146,16 @@ body {
   border-radius: 12px;
   font-size: 10px;
   font-family: 'Press Start 2P';
-  margin-left: 33rem;
   width: 10rem;
   height: 2rem;
   padding: auto;
+}
+
+.page-content {
+   position: relative;
+   left: 85rem;
+   margin-top: -2rem;
+   width: 10rem;
 }
 
 @media (max-width: 428px) {
