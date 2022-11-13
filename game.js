@@ -108,7 +108,7 @@ function playSound(name) {
 
 
     if ($(window).width() <= 428) {
-      $(".modal-button").css("display", "none");
+      $(".page-content").css("display", "none");
    }
 //
 // var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
