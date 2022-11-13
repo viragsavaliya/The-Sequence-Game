@@ -18,7 +18,6 @@ body {
 
 .button-div {
    padding: 1.5rem 0 0 0;
-   background: orange;
 }
 
 @media screen and (max-width: 428px) {
@@ -105,8 +104,6 @@ body {
 
 @media screen and (max-width: 428px) {
    .mobile-start-button-div {
-      display: block;
-      background: orange;
       margin: 0;
    }
 }
