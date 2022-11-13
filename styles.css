@@ -85,9 +85,7 @@ body {
 }
 
 .mobile-start-button-div {
-   display: flex;
-   flex-direction: row;
-   margin-left: 42rem;
+/*    margin-left: 42rem; */
 }
 
 .mobile-start-button {
