@@ -158,11 +158,11 @@ body {
    width: 10rem;
 }
 
-@media (max-width: 428px) {
+/* @media (max-width: 428px) {
    .page-content {
       display: none !important;
    }
-}
+} */
 
 .background {
   position: fixed;
