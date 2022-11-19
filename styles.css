@@ -36,14 +36,14 @@ body {
    border-radius: 20%;
 }
 
-@media screen and (max-width: 428px) {
+/* @media screen and (max-width: 428px) {
    .btn {
       margin: 30px;
       padding: 0 auto;
       height: 300px;
       width: 300px;
    }
-}
+} */
 
 .btn:active {
    transform: scale(0.95);
@@ -113,14 +113,6 @@ body {
    float: left;
 }
 
-.mobile-start-button:hover {
-   box-shadow: #FEF2BF 0px 0px 15px;
-}
-
-.mobile-start-button:active {
-   transform: scale(0.95);
-}
-
 @media screen and (max-width: 428px) {
    .mobile-start-button {
       width: 15rem;
@@ -134,6 +126,14 @@ body {
       cursor: pointer;
       float: left;
    }
+}
+
+.mobile-start-button:hover {
+   box-shadow: #FEF2BF 0px 0px 15px;
+}
+
+.mobile-start-button:active {
+   transform: scale(0.95);
 }
 
 .modal-button {
