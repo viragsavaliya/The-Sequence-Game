@@ -156,6 +156,7 @@ body {
 @media screen and (max-width: 428px) {
    .modal-button {
       display: none !important;
+      visibility: hidden;
    }
 }
 
