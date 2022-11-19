@@ -109,6 +109,7 @@ body {
    .mobile-start-button-div {
       margin: 0 !important;
       background: red;
+      float: left
    }
 }
 
@@ -124,7 +125,6 @@ body {
    .mobile-start-button {
       width: 15rem;
       height: 5rem;
-      margin: 2rem auto 0 auto;
       font-size: 1rem;
       font-family: 'Press Start 2P', cursive;
       border: 0;
