@@ -105,10 +105,10 @@ body {
    float: left;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 786px) {
    .mobile-start-button-div {
       margin: 0 !important;
-      background: pink;
+      background: red;
    }
 }
 
@@ -120,7 +120,7 @@ body {
    transform: scale(0.95);
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 786px) {
    .mobile-start-button {
       width: 15rem;
       height: 5rem;
@@ -153,7 +153,7 @@ body {
   margin-left: 35rem;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 786px) {
    .modal-button {
       display: none !important;
       visibility: hidden;
