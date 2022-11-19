@@ -14,8 +14,8 @@ body {
    #level-title {
       font-size: 1rem;
       margin: 2%;
-      background: skyblue;
       height: 1rem;
+      line-height: 1.2rem;
    }
 }
 
@@ -106,7 +106,6 @@ body {
 @media screen and (max-width: 428px) {
    .mobile-start-button-div {
       margin: 0;
-      background: red;
    }
 }
 
@@ -163,6 +162,27 @@ body {
 @media screen and (max-width: 428px) {
    .modal-button {
       display: none;
+   }
+}
+
+.mobile-modal-button {
+   display: none;
+}
+
+@media screen and (max-width: 428px) {
+   .mobile-modal-button {
+      display: block;
+      cursor: pointer;
+      background: #011F3F;
+      color: #FFF;
+      border: 0;
+      border-radius: 12px;
+      font-size: 8px;
+      font-family: 'Press Start 2P';
+      width: 5rem;
+      height: 1rem;
+      margin: 1rem 0 0 8.8rem;
+      padding-top: 0.5rem;
    }
 }
 
