@@ -105,13 +105,13 @@ body {
    float: left;
 }
 
-@media screen and (max-width: 786px) {
+/* @media screen and (max-width: 786px) {
    .mobile-start-button-div {
       margin: 0 !important;
       background: red;
       float: left
    }
-}
+} */
 
 .mobile-start-button:hover {
    box-shadow: #FEF2BF 0px 0px 15px;
@@ -121,7 +121,7 @@ body {
    transform: scale(0.95);
 }
 
-@media screen and (max-width: 786px) {
+/* @media screen and (max-width: 786px) {
    .mobile-start-button {
       width: 15rem;
       height: 5rem;
@@ -132,7 +132,7 @@ body {
       background-color: #f2bc94;
       cursor: pointer;
    }
-}
+} */
 
 /* .pressed {
   box-shadow: 0 0 20px white;
@@ -153,19 +153,12 @@ body {
   margin-left: 35rem;
 }
 
-@media screen and (max-width: 786px) {
+/* @media screen and (max-width: 786px) {
    .modal-button {
       display: none !important;
       visibility: hidden;
    }
-}
-
-.page-content {
-   position: relative;
-   left: 85rem;
-   margin-top: -2rem;
-   width: 10rem;
-}
+} */
 
 .background {
   position: fixed;
