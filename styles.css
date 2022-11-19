@@ -103,7 +103,7 @@ body {
 @media screen and (max-width: 428px) {
    .mobile-start-button-div {
       margin: 0;
-      background: red;
+      background: orange;
    }
 }
 
