@@ -107,9 +107,9 @@ function playSound(name) {
 }
 
 
-    if ($(window).width() <= 428) {
-      $(".page-content").css("display", "none");
-   }
+//     if ($(window).width() <= 428) {
+//       $(".page-content").css("display", "none");
+//    }
 //
 // var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
 //     if (mobile) {
