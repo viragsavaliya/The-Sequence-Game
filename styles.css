@@ -36,14 +36,14 @@ body {
    border-radius: 20%;
 }
 
-@media screen and (max-width: 428px) {
+/* @media screen and (max-width: 428px) {
    .btn {
       margin: 25px;
       padding: 0 auto;
       height: 150px;
       width: 150px;
    }
-}
+} */
 
 .btn:active {
    transform: scale(0.95);
